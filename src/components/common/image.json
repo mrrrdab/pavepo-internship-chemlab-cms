@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_common_images",
+  "info": {
+    "displayName": "Image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "priority": {
+      "type": "integer",
+      "min": 0
+    }
+  }
+}

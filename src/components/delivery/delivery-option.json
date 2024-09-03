@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_delivery_delivery_options",
+  "info": {
+    "displayName": "Delivery Option",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "float",
+      "required": true,
+      "min": 0
+    },
+    "type": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    }
+  }
+}

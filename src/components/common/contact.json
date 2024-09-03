@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_common_contacts",
+  "info": {
+    "displayName": "Contact"
+  },
+  "options": {},
+  "attributes": {
+    "phoneNumber": {
+      "type": "string",
+      "required": true
+    },
+    "details": {
+      "type": "string"
+    }
+  }
+}

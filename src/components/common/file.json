@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_common_files",
+  "info": {
+    "displayName": "File",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "preview": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "linkLabel": {
+      "type": "string"
+    }
+  }
+}

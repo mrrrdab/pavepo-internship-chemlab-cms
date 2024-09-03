@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_common_items",
+  "info": {
+    "displayName": "TextBlock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

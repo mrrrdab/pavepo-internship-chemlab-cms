@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_product_specs",
+  "info": {
+    "displayName": "Spec"
+  },
+  "options": {},
+  "attributes": {
+    "spec": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "string",
+      "required": true
+    },
+    "measurementUnit": {
+      "type": "string"
+    }
+  }
+}

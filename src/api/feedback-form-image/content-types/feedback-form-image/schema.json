@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "feedback_form_images",
+  "info": {
+    "singularName": "feedback-form-image",
+    "pluralName": "feedback-form-images",
+    "displayName": "Feedback Form Image"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
